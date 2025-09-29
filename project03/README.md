@@ -60,12 +60,7 @@ Initial Convergence Check Implementation: We implemented a basic convergence che
 # Struggles
 External Package Management: We experienced difficulties installing the seqlogo and pdf2svg packages correctly using reticulate::conda_install, particularly related to specifying the correct channels and resolving dependency conflicts with the forge=TRUE argument and Conda solver (requiring the addition of --solver=libmamba). Our program needs ipython environment to generate the result plot, where we had problems to locate and debug.
 
-# Personal Reflections
-## Group Leader - Jason
-Group leader's reflection on the project
 
-## Other member - Tiange
-This project was more challenging than the previous two. However, through some research and productive discussions with Jason, I gradually pinpointed the core solution: meticulous comprehension of the existing code modules (including their inputs, functions, and outputs) and establishing the logical flow between them. Before proceeding to implement the GibbsMotifFinder, I spent a considerable amount of time configuring the environment and importing necessary modules, some of which required sourcing from specific channels. This process provided valuable, hands-on exposure to environment management and configuration, which is an essential complement to the algorithmic, statistical, and IDE skills practiced during the assignment itself.
 
 # Generative AI Appendix
 The following generative AI resources were used for debugging, understanding concepts, and improving code efficiency:
