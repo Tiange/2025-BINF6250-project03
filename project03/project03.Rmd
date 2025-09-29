@@ -114,7 +114,7 @@ def GibbsMotifFinder (seqs, k, seed=42):
     motifs_init = []
     ic_hist = []
     
-    stability_window = 50  # 连续50次迭代的变化量小于阈值
+    stability_window = 50  
     convergence_threshold = 1e-5
     
     for entry in range(0, length_seqs):
